@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(105, 2, 97);
+}
+h2{
+    font-size: 4rem;
+}
+/* span{
+    color: red;
+} */
+
+.number{
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: red; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.ird{
+    
+    display: flex;
+    gap: 0 2rem;
+}
+button{
+    font-size: 1.5rem;
+    padding:.5rem ;
+    border-radius: 10px;
+    background-color: coral;
+}
